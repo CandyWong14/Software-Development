@@ -1,10 +1,10 @@
-# Input for exam score
+#Input for exam score
 score = float(input("Enter a score: "))
 
-# Initialize a grade as empty string
+#Initialize a grade as empty string
 grade = ""
 
-# Determine the grade based on the score range from question table
+#Determine the grade based on the score range from question table
 if score >= 90 and score <= 100:
     grade = "A"
 elif score >= 80 and score < 90:
